@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'B2BStore Docs',
-  tagline: 'B2BStore the headless front-end for e-commerce B2B',
+  title: 'B2BStore Documentation',
+  tagline: 'Learn how to create your headless front-end for e-commerce B2B',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','es'],
   },
 
   presets: [
@@ -64,9 +64,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'B2BStore Documentation',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,9 +74,16 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Getting Started',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/docs/concepts',
+            label: 'Concepts',
+          },
+          {
+            to: '/docs/category/integrations',
+            label: 'Integrations',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
