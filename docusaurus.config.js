@@ -81,8 +81,8 @@ const config = {
             label: 'Concepts',
           },
           {
-            to: '/docs/category/integrations',
-            label: 'Integrations',
+            to: '/docs/category/ecommerce-integrations',
+            label: 'Ecommerce Integrations',
           },
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -124,17 +124,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/orienteed/b2bstore',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} B2BStore.io, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
